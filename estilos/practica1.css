@@ -18,11 +18,32 @@ header{
     grid-area: header;
 }
 
-header > p{
-    height: 30%;
+.header > p{
+    width: 30%;
+
     text-align: center;
     color: #000;
-    background-color: linear-gradient(to rigth, );
+    background: linear-gradient(to right, #00ff00, #ffff00);
+}
+
+.contenedor_header{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    background-color: #68C0B2;
+    color: #000;
+
+}
+
+.menu_idiomas > img{
+    width: 80px;
+    height: 80px;
+}
+
+.contenedor_header img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
 }
 
 aside{
