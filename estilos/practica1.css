@@ -1,0 +1,38 @@
+:root{
+    --color_fondo:#fff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor_grid{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-areas: "header header" "aside main" "footer footer";
+    
+}
+
+header{
+    grid-area: header;
+}
+
+header > p{
+    height: 30%;
+    text-align: center;
+    color: #000;
+    background-color: linear-gradient(to rigth, );
+}
+
+aside{
+    grid-area: aside;
+}
+
+main{
+    grid-area: main;
+}
+
+footer{
+    grid-area: footer;
+}

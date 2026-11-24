@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Practica 1</title>
+  <link rel="stylesheet" href=./estilos/practica1.css>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"/>
+</head>
+<body>
+  <div class="contenedor_grid">
+    <header class="header">
+        <p class="eslogan">Consigue tu viaje en un periquete</p>
+        <div class="contenedor_header">
+            <img src="./estilos/multimedia/logo.png">
+            <nav>
+                <div class="inicio_sesion">
+                    <p>Iniciar sesión</p>
+                </div>
+                <div class="gestion_reserva">
+                    <p>Gestionar Reserva</p>
+                </div>
+                <div class="ayuda">
+                    <p>¿Te podemos ayudar?</p>
+                </div>
+                <div class="agencias">
+                    <p>Agencias</p>
+                </div>
+            </nav>
+            
+            <div class="idioma">
+                <img src="./estilos/multimedia/espana.png">
+                <a href="#">Español</a>
+
+                <div class="menu_idiomas">
+                    <div class="opcion_idioma ingles">
+                        <img class="bandera" src="./estilos/multimedia/reino_unido.png">
+                        <a href="#">Inglés</a>
+                    </div>
+                    <div class="opcion_idioma frances">
+                        <img class="bandera" src="./estilos/multimedia/francia.png">
+                        <a href="#">Francés</a>
+                    </div>
+                    <div class="opcion_idioma alema">
+                        <img class="bandera" src="./estilos/multimedia/alemania.png">
+                        <a href="#">Alemán</a>
+                    </div>
+                    <div class="opcion_idioma italiano">
+                        <img class="bandera" src="./estilos/multimedia/italia.png">
+                        <a href="#">Italiano</a>
+                    </div>
+                    <div class="opcion_idioma chino">
+                        <img class="bandera" src="./estilos/multimedia/china.png">
+                        <a href="#">Chino</a>
+                    </div>
+                </div>
+            </div>
+        </div>  
+    </header>
+    <aside class="sidebar">
+        <div class="contendor_lugares">
+            <h3>España</h3>
+            <ul>
+                <li>Gran Canaria</li>
+                <li>Tenerife</li>
+                <li>Asturias</li>
+                <li>Azuqueca</li>
+            </ul>
+        </div>
+
+        <div class="contendor_lugares">
+            <h3>Europa</h3>
+            <ul>
+                <li>Belgica</li>
+                <li>Francia</li>
+                <li>Italia</li>
+                <li>Alemania</li>
+            </ul>
+        </div>
+
+        <div class="contendor_lugares">
+        <h3>Asia</h3>
+        <ul>
+            <li>Japón</li>
+            <li>Tailandia</li>
+            <li>India</li>
+            <li>China</li>
+        </ul>
+        </div>
+
+        <div class="contendor_lugares">
+        <h3>América</h3>
+        <ul>
+            <li>Estados Unidos</li>
+            <li>México</li>
+            <li>Brasil</li>
+            <li>Canadá</li>
+        </ul>
+        </div>
+
+        <div class="contendor_lugares">
+        <h3>Oceanía</h3>
+        <ul>
+            <li>Australia</li>
+            <li>Nueva Zelanda</li>
+            <li>Islas Fiyi</li>
+        </ul>
+        </div>
+    </aside>
+    <main class="contenedor_main1">
+        <div class="contenedor_main1_1">
+            <div class="contenedor_promocion">
+                <h2>Descubre nuestras promociones</h2>
+                <p>Enterate de nuestros últimos paquetes de viajes a los destinos mas exóticos</p>
+                <button>Ver promociones</button>
+            </div>
+            <video autoplay loop muted playsinline width="640" height="360">
+                <source src="./estilos/multimedia/video.mp4" type="video/mp4">
+                Tu navegador no soporta la etiqueta de video.
+            </video>
+        </div>
+        <div class="contenedor_main1_2"> 
+            <div class="tabs">
+                <div class="tab active">
+                     Hoteles
+                </div>
+                <div class="tab">
+                     Vuelos
+                </div>
+                <div class="tab">
+                     Vuelo+Hotel
+                </div>
+                <div class="tab">
+                     Cruceros
+                </div>
+                <div class="tab">
+                     Parques
+                </div>
+            </div>
+
+            <div class="formulario">
+                <div class="item_formulario">
+                    <label>Destino</label>
+                    <input type="text" placeholder="Indica una ciudad o alojamiento">
+                </div>
+                <div class="item_formulario">
+                    <label>Fechas de ida</label>
+                    <input type="date">
+                </div>
+                <div class="item_formulario">
+                    <label>Fechas de vuelta</label>
+                    <input type="date">
+                </div>
+                <div class="item_formulario">
+                    <label>Habitaciones</label>
+                    <select>
+                        <option>1 habitación</option>
+                        <option>2 habitaciones</option>
+                        <option>3 habitaciones</option>
+                    </select>
+                </div>
+                <button class="boton_formulario">Buscar</button>
+            </div>
+        </div>
+    </main>
+    <main class="contenedor_main2">
+        <h2>Descubre nuestras mejores ofertas</h2>
+        <div class="contenedor_main2_1">
+            <div class="tarjeta">
+                <div class="contenido_tarjeta">
+                    <img src="./estilos/multimedia/roma.png">
+                    <h3>Roma</h3>
+
+                    <p class="detalles">
+                        Vuelos desde Madrid<br>
+                        4 días / 3 noches<br>
+                        Salida el 25 feb 2027<br>
+                        Alojamiento y desayuno
+                    </p>
+
+                    <p class="oferta">20% dto. hasta el 28/12</p>
+                    <p class="flash">Oferta FLASH Black Friday</p>
+                    <p class="precio_antiguo">desde 189€</p>
+                    <div class="precio_nuevo">
+                        <p>Desde 151€</p>
+                        <button><span class="material-symbols-outlined"> arrow_right_alt</span></button>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="tarjeta">
+                <div class="contenido_tarjeta">
+                    <img src="./estilos/multimedia/tunez.jpg">
+                    <h3>Tunez</h3>
+
+                    <p class="detalles">
+                        Vuelos desde Barcelona<br>
+                        5 días / 4 noches<br>
+                        Salida el 17 mar 2027<br>
+                        Alojamiento
+                    </p>
+
+                    <div class="precio_nuevo">
+                        <p>Desde 988€</p>
+                        <button><span class="material-symbols-outlined"> arrow_right_alt</span></button>
+                    </div>
+                </div>
+            </div>
+            <div class="tarjeta">
+                <div class="contenido_tarjeta">
+                    <img src="./estilos/multimedia/egipto.jpg">
+                    <h3>Egipto</h3>
+
+                    <p class="detalles">
+                        Vuelos desde Madrid y Valencia<br>
+                        6 días / 5 noches<br>
+                        Salida el 17 ene 2027<br>
+                        Alojamiento y desayuno
+                    </p>
+
+                    <p class="oferta">10% dto. hasta el 28/12</p>
+                    <p class="flash">Oferta FLASH Black Friday</p>
+                    <span class="precio_antiguo">desde 1034€</span>
+                    <div class="precio_nuevo">
+                        <p>Desde 940€</p>
+                        <button><span class="material-symbols-outlined"> arrow_right_alt</span></button>
+                    </div>
+                </div>
+            </div>
+            <div class="tarjeta">
+                <div class="contenido_tarjeta">
+                    <img src="./estilos/multimedia/japon.jpg">
+                    <h3>Japón</h3>
+
+                    <p class="detalles">
+                        Vuelos desde Madrid y Barcelona<br>
+                        8 días / 7 noches<br>
+                        Salida el 05 may 2027<br>
+                        Alojamiento y desayuno
+                    </p>
+
+                    <p class="oferta">15% dto. hasta el 28/12</p>
+                    <p class="flash">Oferta FLASH Black Friday</p>
+                    <span class="precio_antiguo">desde 2576€</span>
+                    <div class="precio_nuevo">
+                        <p>Desde 2240€</p>
+                        <button><span class="material-symbols-outlined"> arrow_right_alt</span></button>
+                    </div>
+                </div>
+            </div>
+            <div class="tarjeta">
+                <div class="contenido_tarjeta">
+                    <img src="./estilos/multimedia/gran_canaria.webp">
+                    <h3>Gran Canaria</h3>
+
+                    <p class="detalles">
+                        Vuelos desde Madrid, Barcelona y Valencia<br>
+                        8 días / 7 noches<br>
+                        Salida el 13 feb 2027<br>
+                        Media pensión
+                    </p>
+
+                    <p class="oferta">20% dto. hasta el 28/11</p>
+                    <p class="flash">Oferta FLASH Black Friday</p>
+                    <span class="precio_antiguo">desde 628€</span>
+                    <div class="precio_nuevo">
+                        <p>Desde 524€</p>
+                        <button><span class="material-symbols-outlined"> arrow_right_alt</span></button>
+                    </div>
+                </div>
+            </div>
+            <div class="tarjeta">
+                <div class="contenido_tarjeta">
+                    <img src="./estilos/multimedia/azuqueca.jpg">
+                    <h3>Azuqueca de Henares</h3>
+
+                    <p class="detalles">
+                        Guagua desde Madrid<br>
+                        4 días / 3 noches<br>
+                        Salida el 01 dic 2026<br>
+                        Alojamiento y desayuno
+                    </p>
+
+                    <div class="precio_nuevo">
+                        <p>Desde 96€</p>
+                        <button><span class="material-symbols-outlined"> arrow_right_alt</span></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="contenedor_footer">
+            <img src="./estilos/multimedia/logo.png">
+
+            <div class="enlaces_footer">
+                <h4>Sobre nosotros</h4>
+                <ul>
+                    <li><a>Quiénes somos</a></li>
+                    <li><a>Financiación</a></li>
+                    <li><a>Sostenibilidad</a></li>
+                    <li><a>Turismo accesible</a></li>
+                    <li><a>Trabaja con nosotros</a></li>
+                </ul>
+            </div>
+
+            <div class="enlaces_footer">
+                <h4>Enlaces de interés</h4>
+                <ul>
+                <li><a>Guías</a></li>
+                <li><a>Catálogos</a></li>
+                <li><a>Auto check-in</a></li>
+                <li><a>Condiciones Generales</a></li>
+                <li><a>Política de privacidad</a></li>
+                <li><a>Política de cookies</a></li>
+                <li><a>Empresas/Grupos</a></li>
+                </ul>
+            </div>
+
+            <div class="enlaces_footer">
+                <h4>Visita nuestro blog</h4>
+                <a>Blog de Periquito Viajes</a>
+            </div>
+        </div>
+
+        <div class="footer_bottom">
+            &copy; Periquito Viajes 2026. Todos los derechos reservados
+        </div>
+    </footer>
+  </div>
+</body>
+</html>
